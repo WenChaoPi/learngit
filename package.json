@@ -4,7 +4,8 @@
   "description": "git is a distributed version control system. git is a free software distributed under the GPL. git has a mutable index called stage. git tracks changes of files. creating a new branch is quick & simple. merge with --no-ff working...",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version"
   },
   "husky": {
     "hooks": {
@@ -25,7 +26,8 @@
   "devDependencies": {
     "@commitlint/cli": "^9.1.1",
     "@commitlint/config-conventional": "^9.1.1",
-    "husky": "^4.2.5"
+    "husky": "^4.2.5",
+    "standard-version": "^8.0.2"
   },
   "dependencies": {}
 }
