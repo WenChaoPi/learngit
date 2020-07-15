@@ -1,0 +1,31 @@
+{
+  "name": "learngit",
+  "version": "0.0.0",
+  "description": "git is a distributed version control system. git is a free software distributed under the GPL. git has a mutable index called stage. git tracks changes of files. creating a new branch is quick & simple. merge with --no-ff working...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WenChaoPi/learngit.git"
+  },
+  "keywords": [],
+  "author": "piwenchao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WenChaoPi/learngit/issues"
+  },
+  "homepage": "https://github.com/WenChaoPi/learngit#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
+    "husky": "^4.2.5"
+  },
+  "dependencies": {}
+}
