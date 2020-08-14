@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"go/types"
+)
 
 func main(){
-	fmt.println("feature-vulcan is done.")
+	fmt.Println("feature-vulcan is done.")
+	a := types.Interface{}
+	fmt.Printf("a's type is %T\n",a)
 }
